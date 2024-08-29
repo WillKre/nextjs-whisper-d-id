@@ -1,0 +1,49 @@
+{
+  "name": "next-whisper-d-id",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "setup-env": "cp .env-example .env",
+    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.4.6",
+    "@nextui-org/switch": "2.0.33",
+    "@nextui-org/system": "2.2.5",
+    "@nextui-org/theme": "2.2.9",
+    "@phosphor-icons/react": "^2.1.7",
+    "@react-aria/ssr": "3.9.5",
+    "@react-aria/visually-hidden": "3.8.15",
+    "ai": "^3.3.20",
+    "clsx": "^2.1.1",
+    "next": "14.2.7",
+    "next-themes": "^0.3.0",
+    "openai": "^4.56.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.1",
+    "@types/react": "18.3.4",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "postcss": "8.4.41",
+    "tailwind-variants": "0.2.1",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4"
+  }
+}
