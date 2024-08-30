@@ -26,7 +26,7 @@ export function NavBar() {
           <Link
             isExternal
             aria-label="Github"
-            href="https://github.com/WillKre"
+            href="https://github.com/WillKre/nextjs-whisper-d-id"
             className="flex flex-row justify-center gap-1 text-foreground"
           >
             <GithubIcon className="text-default-500" />
